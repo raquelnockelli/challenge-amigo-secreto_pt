@@ -53,11 +53,14 @@ function adicionarAmigo() {
         let indiceSorteado = Math.floor(Math.random() * amigos.length);
         let amigoSorteado = document.getElementById("resultado");
         amigoSorteado.innerHTML = amigos[indiceSorteado];
-        
-
       }
 
     }
 
+    function novaLista(){
+      amigos = [];
+      atualizarListaDeAmigos();
+      document.getElementById("resultado").innerHTML = "";
+    }
 
   

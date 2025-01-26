@@ -160,3 +160,25 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Botão de nova lista de amigos */
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    margin: 15px auto;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-size: 16px;
+}
+
+.button-reset img {
+    margin-right: 40px;
+    width: 30px;
+    
+}
+
+.button-reset:hover {
+    background-color: #17256e;
+}
